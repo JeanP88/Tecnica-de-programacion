@@ -1,0 +1,33 @@
+/* Estilo para el botón */
+button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: rgb(245, 245, 245);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* Estilo para el botón cuando el mouse pasa por encima */
+button:hover {
+    background-color: white;
+    color: rgb(191, 35, 35);
+    border: 2px solid #4CAF50;
+}
+
+/* Estilo para los resultados */
+#resultados {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(0, 136, 255);
+}
+
+/* Estilo para cambiar el color del texto al pasar el mouse */
+#resultados p:hover {
+    color: red;
+}

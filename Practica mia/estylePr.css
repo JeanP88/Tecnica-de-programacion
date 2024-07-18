@@ -1,0 +1,42 @@
+
+
+.boton-como-enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+}
+
+.boton-como-enlace:hover {
+    background-color: #0056b3;
+}
+
+.boton-como-enlace:active {
+    background-color: #0056b3;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+.Forma {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #965959;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+body {
+    background-color: #9ca7e9;
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
